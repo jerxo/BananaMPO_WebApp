@@ -1,0 +1,89 @@
+/* style.css */
+
+
+h1, h2, h3, p {
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #006400; /* Use provided primaryColor for button background */
+    color: #006400; /* White text color for contrast */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0s;
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    font-weight: bold; /* Bold text for emphasis */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+button:hover {
+    background-color: #006400; /* Slightly darker red on hover */
+}
+
+
+
+div.st-emotion-cache-0.eqpbllx5 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #045e26;
+    border-radius: 10px;
+}
+
+
+div.st-emotion-cache-1njjmvq.e1f1d6gn2 {
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: #045e26;
+}
+
+div.st-emotion-cache-10trblm.e1nzilvr1{
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: #045e26;
+}
+
+div.st-emotion-cache-1r6slb0.e1f1d6gn2 {
+    padding: 2%;
+}
+
+div.st-emotion-cache-keje6w.e1f1d6gn2 {
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: #045e26;
+}
+
+div.st-emotion-cache-0.esjhkag0 {
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: #045e26;
+}
+
+
+div.st-emotion-cache-ocqkz7.e1f1d6gn4 {
+    border-radius: 10px;
+    color: white;
+}
+
+div.st-emotion-cache-1629p8f.e1nzilvr2 {
+    padding: 1% 2%;
+    border-radius: 10px;
+    color: white;
+    background-color: #045e26;
+}
+
+div.st-emotion-cache-6i2apke1f1d6gn1 > div.st-emotion-cache-1wmy9hl.e1f1d6gn0 {
+    border: 5px;
+    border-radius: 10px;
+}
+
+
+div[data-baseweb="tab-panel"] > div:first-of-type {
+    height: 400px;
+    overflow-y: auto;
+}
+
+div[data-testid="stNumberInput"] > div:first-of-type {
+    width: 50%;
+}
